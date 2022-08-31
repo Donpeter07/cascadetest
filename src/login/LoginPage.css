@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Helveticaqq;
+    src: url(../fonts/HelveticaNeueMedium.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #ecebe7; */
+    /* overflow: hidden; */
+}
+
+.nav_img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 10px 20px;
+
+}
+.main_body {
+    background-color:  #ecebe7;
+    border-radius: 17px;
+    box-shadow: 0 1px 2px 3px rgb(60 64 67 / 8%);
+    height: 200px;
+    padding: 15px 20px;
+}
+.main_body_heading {
+    color: #1e3343 !important;
+    font-family:Helvetica !important;
+    font-size: 18px;
+}
+.main_body_para {
+    color: #1e3343!important;
+    font-family:Helveticaqq!important;
+    font-size:16px;
+    padding-top: 2px;
+    text-align: justify;
+    margin-top: 15px;
+}
+.customtip {
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+.input_box {
+    background-color: #fff!important;
+    border-radius: 10px!important;
+    outline-style: hidden;
+    font-size: 20px;
+    height: 50px;
+    padding: 3px;
+    border: 1px #b1b9ce solid;
+    /* border: none;
+    outline: 0; */
+}
+button {
+    border: 1px #b1b9ce solid;
+}
+
+.show{
+    display: block;
+  }
+  .notshow{
+    display: none;
+  }
+  .helvfont {
+    font-family: Helveticaqq;
+  }
+  .tip_heading {    
+    font-family: Helveticaqq;
+    font-size: 15px;
+    color: #212529;
+  }
+/* .header {
+    background-color: #fff;
+    border: 1px solid #dddd;
+    padding-left: 20px!important;
+    padding-top: 5px!important;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+} */

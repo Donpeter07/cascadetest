@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+input::placeholder {
+  color: #A3A3A3;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif, FontAwesome !important;
 }
+
+input:hover,
+select:hover,
+textarea:hover,
+button:hover {
+  border: 1px #2f427c solid;
+}
+
